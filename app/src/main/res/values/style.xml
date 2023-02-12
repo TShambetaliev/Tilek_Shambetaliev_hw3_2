@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textSize">28sp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">150dp</item>
+        <item name="cornerRadius">11dp</item>
+        <item name="background">@color/purple_700</item>
+    </style>
+</resources>

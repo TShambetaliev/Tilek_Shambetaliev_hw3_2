@@ -18,8 +18,5 @@ if (savedInstanceState == null) {
     getSupportFragmentManager().beginTransaction()
             .add(R.id.conteiner, new FirstFragment()).commit();
 }
-        getSupportFragmentManager().beginTransaction()
-                .add(R.id.conteiner_second, new SecondFragment()).commit();
-
     }
 }

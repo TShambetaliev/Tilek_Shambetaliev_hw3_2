@@ -35,6 +35,7 @@ public class FirstFragment extends Fragment {
         initListener();
 
 
+
     }
     private void initListener() {
         plus.setOnClickListener(new View.OnClickListener() {
@@ -70,5 +71,6 @@ public class FirstFragment extends Fragment {
         minus = requireActivity().findViewById(R.id.btn_minus);
         txt = requireActivity().findViewById(R.id.txt_view);
         next = requireActivity().findViewById(R.id.btn_next);
+        txt.setText(String.valueOf(count));
     }
 }
